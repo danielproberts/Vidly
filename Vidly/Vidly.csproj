@@ -223,9 +223,30 @@
     <Compile Include="Migrations\202102280217123_CorrectCustomerBirthDate.Designer.cs">
       <DependentUpon>202102280217123_CorrectCustomerBirthDate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202102281351290_AddMoviesToContext.cs" />
+    <Compile Include="Migrations\202102281351290_AddMoviesToContext.Designer.cs">
+      <DependentUpon>202102281351290_AddMoviesToContext.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102281358539_AddGenreModel.cs" />
+    <Compile Include="Migrations\202102281358539_AddGenreModel.Designer.cs">
+      <DependentUpon>202102281358539_AddGenreModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102281359434_SeedGenres.cs" />
+    <Compile Include="Migrations\202102281359434_SeedGenres.Designer.cs">
+      <DependentUpon>202102281359434_SeedGenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102281511415_AddDateAddedToMovies.cs" />
+    <Compile Include="Migrations\202102281511415_AddDateAddedToMovies.Designer.cs">
+      <DependentUpon>202102281511415_AddDateAddedToMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102281640040_MakeMoviePropertiesRequired.cs" />
+    <Compile Include="Migrations\202102281640040_MakeMoviePropertiesRequired.Designer.cs">
+      <DependentUpon>202102281640040_MakeMoviePropertiesRequired.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -297,6 +318,7 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -348,6 +370,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202102280217123_CorrectCustomerBirthDate.resx">
       <DependentUpon>202102280217123_CorrectCustomerBirthDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102281351290_AddMoviesToContext.resx">
+      <DependentUpon>202102281351290_AddMoviesToContext.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102281358539_AddGenreModel.resx">
+      <DependentUpon>202102281358539_AddGenreModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102281359434_SeedGenres.resx">
+      <DependentUpon>202102281359434_SeedGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102281511415_AddDateAddedToMovies.resx">
+      <DependentUpon>202102281511415_AddDateAddedToMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102281640040_MakeMoviePropertiesRequired.resx">
+      <DependentUpon>202102281640040_MakeMoviePropertiesRequired.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
