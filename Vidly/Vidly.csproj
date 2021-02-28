@@ -203,6 +203,26 @@
     <Compile Include="Migrations\202102280001291_UpdateMembershipTypeTable.Designer.cs">
       <DependentUpon>202102280001291_UpdateMembershipTypeTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202102280101440_AddBirthDateToCustomer.cs" />
+    <Compile Include="Migrations\202102280101440_AddBirthDateToCustomer.Designer.cs">
+      <DependentUpon>202102280101440_AddBirthDateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102280118180_SeedCustomerBirthDate.cs" />
+    <Compile Include="Migrations\202102280118180_SeedCustomerBirthDate.Designer.cs">
+      <DependentUpon>202102280118180_SeedCustomerBirthDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102280132187_MakeBirthDateNullableInModel.cs" />
+    <Compile Include="Migrations\202102280132187_MakeBirthDateNullableInModel.Designer.cs">
+      <DependentUpon>202102280132187_MakeBirthDateNullableInModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102280143451_AnnotatedBirthDateInCustomer.cs" />
+    <Compile Include="Migrations\202102280143451_AnnotatedBirthDateInCustomer.Designer.cs">
+      <DependentUpon>202102280143451_AnnotatedBirthDateInCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102280217123_CorrectCustomerBirthDate.cs" />
+    <Compile Include="Migrations\202102280217123_CorrectCustomerBirthDate.Designer.cs">
+      <DependentUpon>202102280217123_CorrectCustomerBirthDate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -313,6 +333,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202102280001291_UpdateMembershipTypeTable.resx">
       <DependentUpon>202102280001291_UpdateMembershipTypeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102280101440_AddBirthDateToCustomer.resx">
+      <DependentUpon>202102280101440_AddBirthDateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102280118180_SeedCustomerBirthDate.resx">
+      <DependentUpon>202102280118180_SeedCustomerBirthDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102280132187_MakeBirthDateNullableInModel.resx">
+      <DependentUpon>202102280132187_MakeBirthDateNullableInModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102280143451_AnnotatedBirthDateInCustomer.resx">
+      <DependentUpon>202102280143451_AnnotatedBirthDateInCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102280217123_CorrectCustomerBirthDate.resx">
+      <DependentUpon>202102280217123_CorrectCustomerBirthDate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
