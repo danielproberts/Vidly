@@ -243,6 +243,14 @@
     <Compile Include="Migrations\202102281640040_MakeMoviePropertiesRequired.Designer.cs">
       <DependentUpon>202102281640040_MakeMoviePropertiesRequired.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103011220096_AddGenresToContext.cs" />
+    <Compile Include="Migrations\202103011220096_AddGenresToContext.Designer.cs">
+      <DependentUpon>202103011220096_AddGenresToContext.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103011328054_RemoveMovieReleaseDateAnnotation.cs" />
+    <Compile Include="Migrations\202103011328054_RemoveMovieReleaseDateAnnotation.Designer.cs">
+      <DependentUpon>202103011328054_RemoveMovieReleaseDateAnnotation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -250,10 +258,12 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
+    <Compile Include="Models\Min18YearsIfAMember.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\CustomerFormViewModel.cs" />
+    <Compile Include="ViewModels\MovieFormViewModel.cs" />
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -321,6 +331,7 @@
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Movies\Details.cshtml" />
     <Content Include="Views\Customers\CustomerForm.cshtml" />
+    <Content Include="Views\Movies\MovieForm.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -387,6 +398,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202102281640040_MakeMoviePropertiesRequired.resx">
       <DependentUpon>202102281640040_MakeMoviePropertiesRequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103011220096_AddGenresToContext.resx">
+      <DependentUpon>202103011220096_AddGenresToContext.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103011328054_RemoveMovieReleaseDateAnnotation.resx">
+      <DependentUpon>202103011328054_RemoveMovieReleaseDateAnnotation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
