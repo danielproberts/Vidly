@@ -251,6 +251,14 @@
     <Compile Include="Migrations\202103011328054_RemoveMovieReleaseDateAnnotation.Designer.cs">
       <DependentUpon>202103011328054_RemoveMovieReleaseDateAnnotation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103011825134_UpdateMovieDataAnnotations.cs" />
+    <Compile Include="Migrations\202103011825134_UpdateMovieDataAnnotations.Designer.cs">
+      <DependentUpon>202103011825134_UpdateMovieDataAnnotations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103021225353_ChangeNumberInStockToByte.cs" />
+    <Compile Include="Migrations\202103021225353_ChangeNumberInStockToByte.Designer.cs">
+      <DependentUpon>202103021225353_ChangeNumberInStockToByte.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -268,6 +276,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\aspnet-Vidly-20210219091950.mdf" />
+    <Content Include="App_Data\aspnet-Vidly-20210219091950_log.ldf">
+      <DependentUpon>aspnet-Vidly-20210219091950.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-lumen.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -404,6 +415,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103011328054_RemoveMovieReleaseDateAnnotation.resx">
       <DependentUpon>202103011328054_RemoveMovieReleaseDateAnnotation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103011825134_UpdateMovieDataAnnotations.resx">
+      <DependentUpon>202103011825134_UpdateMovieDataAnnotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103021225353_ChangeNumberInStockToByte.resx">
+      <DependentUpon>202103021225353_ChangeNumberInStockToByte.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
